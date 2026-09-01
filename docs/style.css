@@ -119,8 +119,14 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
 .sw.line { width: 26px; height: 5px; background: var(--kmk); border-radius: 3px; box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ccd; }
 .sw.line.tram { background: #d6212b; }
 .sw.line.mline { background: #e8a000; }
-/* metro swatch: the five Metrorex line colors side by side */
-.sw.line.metro { background: linear-gradient(90deg, #F04E98 0 25%, #118751 25% 50%, #A02D96 50% 75%, #4EC3E0 75% 100%); }
+/* metro swatch: the two metros of this frame, Amsterdam's 51 and 52 beside
+   Rotterdam's A and E — not the tram red, because metro is its own category */
+.sw.line.metro { background: linear-gradient(90deg, #FF6600 0 25%, #00ADEF 25% 50%, #00983D 50% 75%, #0F3F94 75% 100%); }
+/* one operator can run buses, trams and a metro: the chip cloud says which */
+.chip-sub {
+  margin: 7px 0 2px; font-size: 10px; font-weight: 700; letter-spacing: .07em;
+  text-transform: uppercase; color: #7b828c;
+}
 .sublegend { font-size: 11.5px; color: #445; padding-left: 26px; }
 /* sublegends mix text with inline color chips — flex would scatter them */
 .legend li.sublegend { display: block; }

@@ -43,9 +43,15 @@ const dist = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]);
 const chainLen = (p) => { let s = 0; for (let i = 1; i < p.length; i++) s += dist(p[i - 1], p[i]); return s; };
 const nk = (c) => c[0].toFixed(6) + ',' + c[1].toFixed(6);
 
-// line numbers sort like a timetable, not like strings (build.mjs convention)
+// line numbers sort like a timetable, not like strings (build.mjs convention),
+// and they sort by what the map PRINTS: only the numbers that clash between
+// operators carry a code in their key, so ordering the raw keys would put a
+// bare 24 before a prefixed 1. LBL below is read before the first call.
 const keyParts = (s) => { const m = /^(\D*)(\d*)(.*)$/.exec(s); return [m[1], m[2] ? Number(m[2]) : Infinity, m[3]]; };
-const numSort = (a, b) => { const A = keyParts(a), B = keyParts(b); return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]); };
+const numSort = (a, b) => {
+  const A = keyParts(disp(a)), B = keyParts(disp(b));
+  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]) || a.localeCompare(b);
+};
 
 // ---------- colour: CIE-Lab, so "different enough" is a measurable distance ----------
 function lab2rgb(L, a, b) {

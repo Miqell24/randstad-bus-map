@@ -208,12 +208,15 @@ async function init() {
 
   // Panel (English, minimal): legend + mode toggles + expandable clickable line list.
   const nBus = meta.lines.filter((l) => l.mode === 'bus').length;
-  const nTram = meta.lines.filter((l) => l.mode === 'tram').length;
+  // Metro rides the tram slot in the data and is its OWN category in the panel:
+  // the pipeline stamps metro:1, nothing here guesses from a line number.
+  const nMetro = meta.lines.filter((l) => l.metro).length;
+  const nTram = meta.lines.filter((l) => l.mode === 'tram').length - nMetro;
   // category membership is by COLOUR — set once, in the pipeline
   const nTro = meta.lines.filter((l) => l.mode === 'bus' && l.color === '#149a3f').length;
   const nMB = meta.lines.filter((l) => l.mode === 'bus' && l.color === '#e8a000').length;
   document.getElementById('count').textContent =
-    `(${nBus} bus · ${nTram} tram & metro)`;
+    `(${nBus} bus · ${nTram} tram · ${nMetro} metro)`;
   document.getElementById('stamp').textContent = new Date(meta.generatedAt).toLocaleDateString('en-GB');
   // The pipeline key keeps a disambiguating prefix — route merging, colour
   // lookup and selection all match on it — while everything the panel and the
@@ -247,6 +250,11 @@ async function init() {
     ['arriva', 'Arriva'], ['rreis', 'RRReis'], ['bravo', 'Bravo'],
   ];
   const OP_TITLE = new Map(OPS);
+  // Inside an operator the three categories stay apart, in the order the
+  // toggles above list them. Half of these concessions run one mode only, so
+  // the sub-head appears only where there is something to tell apart.
+  const CATS = [['bus', 'Buses'], ['tram', 'Trams'], ['metro', 'Metro']];
+  const catOf = (l) => (l.metro ? 'metro' : l.mode);
   const paintChips = (linesView) => {
     const active = (l) => l.line === state.selected && l.mode === state.selMode;
     const bucket = new Map();
@@ -259,8 +267,11 @@ async function init() {
       const ls = bucket.get(key);
       if (!ls || !ls.length) return '';
       bucket.delete(key);
+      const groups = CATS.map(([c, title]) => [title, ls.filter((l) => catOf(l) === c)])
+        .filter(([, cl]) => cl.length);
       return `<h3 class="chip-head">${esc(OP_TITLE.get(key) || key)} <span class="n">${ls.length}</span></h3>` +
-        `<div class="chip-cloud">${ls.map((l) => chipHtml(l, linesView ? lineColor(l.line) : l.color, active(l))).join(' ')}</div>`;
+        groups.map(([title, cl]) => (groups.length > 1 ? `<h4 class="chip-sub">${title}</h4>` : '') +
+          `<div class="chip-cloud">${cl.map((l) => chipHtml(l, linesView ? lineColor(l.line) : l.color, active(l))).join(' ')}</div>`).join('');
     };
     let html = OPS.map(([k]) => section(k)).join('');
     for (const k of [...bucket.keys()]) html += section(k);

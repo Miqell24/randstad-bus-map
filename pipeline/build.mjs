@@ -50,9 +50,19 @@ const keyParts = (s) => {
   const m = /^(\D*)(\d*)(.*)$/.exec(s);
   return [m[1], m[2] ? Number(m[2]) : Infinity, m[3]];
 };
+// Sorting follows what the map PRINTS, never the internal key. Here that is
+// the whole difference between order and nonsense: only the numbers that clash
+// between operators carry a code in their key (gvb:1, htm:1, ret:1) while the
+// unique ones stay bare, so sorting the raw keys split one operator's list in
+// two — 24 25 26 27 28 29 then 1 2 4 5 — and the panel read as if shuffled.
+// LBL is filled in by lineKey before the first call site.
+const dispOf = (s) => LBL.get(s) ?? s;
 const numSort = (a, b) => {
-  const A = keyParts(a), B = keyParts(b);
-  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]);
+  const A = keyParts(dispOf(a)), B = keyParts(dispOf(b));
+  // the raw key breaks ties, so two lines printing the same number (GVB 1 and
+  // HTM 1) still land in a stable, repeatable order
+  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2])
+    || a.localeCompare(b);
 };
 function round6(v) { return Math.round(v * 1e6) / 1e6; }
 // dark variant for feed-supplied line colors (badge rims / terminus fills)
@@ -270,7 +280,15 @@ async function processMode(cfg) {
   // NOT fall back to the mode color — that is the tram red, and a metro
   // ribbon in tram red reads as a tram line. Purple = "several metro lines".
   const METRO_MIX = '#7d2b8b', METRO_MIX_DARK = '#45164e';
-  const isMetroMix = (lines) => cfg.mode === 'tram' && lines.length > 1 && lines.every(isRailTrunk);
+  // Metro is its OWN category, not a kind of tram. It rides the tram slot in
+  // the data (one rail graph, one set of layers) but every metro feature is
+  // stamped metro:1, which is what the frontend's third toggle, the full
+  // station discs and the always-on station names all key off. Both metros
+  // here are metro end to end, so the cfg says so once with allMetro rather
+  // than naming lines: `isRailTrunk` stays for maps that mix a commuter-rail
+  // trunk into an otherwise tram-shaped cfg. (Copenhagen's reader, ported.)
+  const trunkLine = (l) => cfg.allMetro === true || isRailTrunk(l);
+  const isMetroMix = (lines) => cfg.mode === 'tram' && lines.length > 1 && lines.every(trunkLine);
   const colorOf = (lines) => {
     if (!cfg.lineColors) return cfg.color;
     const c = cfg.lineColors[lines[0]] || cfg.color;
@@ -667,7 +685,7 @@ async function processMode(cfg) {
       // metro shapes are tunnel approximations — often 40–70 m off the OSM
       // subway axis (street-grid drawn), so the snap net widens and the
       // emission softens; surface trams keep the tight default
-      if (cfg.mode === 'tram' && isRailTrunk(r.line)) {
+      if (cfg.mode === 'tram' && trunkLine(r.line)) {
         opts = { sigma: 15, radii: [60, 120], maxCand: 16, gapMin: GAP_MIN };
       }
     }
@@ -754,7 +772,7 @@ async function processMode(cfg) {
   // interchanges) platform records into a single entry keyed by name — one disc,
   // one label (user report: Irini drawn twice, once off the tracks).
   if (cfg.mode === 'tram') {
-    const isMetroEntry = (e) => [...e.lines].every(isRailTrunk);
+    const isMetroEntry = (e) => [...e.lines].every(trunkLine);
     const byStation = new Map();
     for (const [id, e] of stopAgg) {
       if (!isMetroEntry(e)) continue;
@@ -783,7 +801,7 @@ async function processMode(cfg) {
   const farNames = [];
   for (const e of stopAgg.values()) {
     const [sx, sy] = proj.toXY(e.lat, e.lon);
-    const isMetroStop = cfg.mode === 'tram' && [...e.lines].every(isRailTrunk);
+    const isMetroStop = cfg.mode === 'tram' && [...e.lines].every(trunkLine);
     let best = null, bestRun = null;
     // candidates are ONLY the runs that actually call at this pole: on a
     // double-track street the pole of one direction can lie nearer the
@@ -957,7 +975,7 @@ async function processMode(cfg) {
         lines: p.badgeLines.map((line) => ({
           line, mode: p.mode, color: colorOf([line]), colorDark: colorDarkOf([line]),
           // metro rides the tram slot but answers to its own frontend toggle
-          ...(p.mode === 'tram' && isRailTrunk(line) ? { metro: 1 } : {}),
+          ...(p.mode === 'tram' && trunkLine(line) ? { metro: 1 } : {}),
         })),
       });
     }
@@ -1023,7 +1041,7 @@ async function processMode(cfg) {
       if (n === arr.length) flags.trolley = 'all';
       else if (n > 0) flags.trolley = 'mix';
     }
-    if (cfg.mode === 'tram' && arr.every(isRailTrunk)) flags.metro = 1;
+    if (cfg.mode === 'tram' && arr.every(trunkLine)) flags.metro = 1;
     if (cfg.mlineSet && cfg.mlineSet.size) {
       const n = arr.filter((l) => cfg.mlineSet.has(l)).length;
       if (n === arr.length) flags.mline = 'all';
@@ -1156,6 +1174,10 @@ async function processMode(cfg) {
   const metaLines = [...new Set(reps.map((r) => r.line))].sort(numSort).map((L) => ({
     line: L,
     mode: cfg.mode,
+    // metro rides the tram slot in the data but is its own category in the
+    // panel: the pipeline decides membership once, here, exactly as the
+    // trolleybus and metroline categories are decided by colour.
+    ...(cfg.mode === 'tram' && trunkLine(L) ? { metro: 1 } : {}),
     // which concession runs it — the panel groups its chip cloud by this
     op: LINE_OP.get(L),
     color: colorOf([L]),
