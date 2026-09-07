@@ -57,11 +57,20 @@ const keyParts = (s) => {
 // two — 24 25 26 27 28 29 then 1 2 4 5 — and the panel read as if shuffled.
 // LBL is filled in by lineKey before the first call site.
 const dispOf = (s) => LBL.get(s) ?? s;
+// Line RANK (7.09.2026, user rule for the whole family): trolleybuses first,
+// day lines next, NIGHT lines last — in every list the map prints: the panel,
+// the number rows along the streets, the terminus badge grids. The night
+// rule is this city's own (NIGHT, tested on the printed number); the
+// trolleybuses are whatever the feed loop painted green (TROLLEYS).
+const NIGHT = /^N\d/i;
+const TROLLEYS = new Set();
+const lineRank = (k) => (TROLLEYS.has(k) ? 0
+  : NIGHT.test(dispOf(k)) ? 2 : 1);
 const numSort = (a, b) => {
   const A = keyParts(dispOf(a)), B = keyParts(dispOf(b));
   // the raw key breaks ties, so two lines printing the same number (GVB 1 and
   // HTM 1) still land in a stable, repeatable order
-  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2])
+  return lineRank(a) - lineRank(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2])
     || a.localeCompare(b);
 };
 function round6(v) { return Math.round(v * 1e6) / 1e6; }
@@ -333,7 +342,7 @@ async function processMode(cfg) {
       if (!key) continue;
       routeToLine.set(r.route_id, key);
       if ((feed.trolley && feed.trolley(r)) || r.route_type === '11') {
-        cfg.trolleySet.add(key);
+        cfg.trolleySet.add(key); TROLLEYS.add(key);
         cfg.lineColors[key] = TROLLEY_GREEN;
         cfg.lineColorsDark[key] = TROLLEY_DARK;
       } else if (feed.mline && feed.mline(r)) {
@@ -1880,6 +1889,6 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   modes: MODES.map((m) => ({ mode: m.mode, label: m.label, color: m.color })),
   // the chips keep `line` as their value (selection matches keys) and print
   // `label` where the city's number differs from the pipeline's key
-  lines: metaLines.map((l) => (LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l)),
+  lines: metaLines.map((l) => ({ ...(LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l), rank: lineRank(l.line) })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);

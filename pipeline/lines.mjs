@@ -48,9 +48,11 @@ const nk = (c) => c[0].toFixed(6) + ',' + c[1].toFixed(6);
 // operators carry a code in their key, so ordering the raw keys would put a
 // bare 24 before a prefixed 1. LBL below is read before the first call.
 const keyParts = (s) => { const m = /^(\D*)(\d*)(.*)$/.exec(s); return [m[1], m[2] ? Number(m[2]) : Infinity, m[3]]; };
+const META_RANK = new Map((JSON.parse(readFileSync(join(OUT, 'meta.json'), 'utf8')).lines || []).map((l) => [l.line, l.rank ?? 1]));
+const rankOf = (k) => META_RANK.get(k) ?? 1;
 const numSort = (a, b) => {
   const A = keyParts(disp(a)), B = keyParts(disp(b));
-  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]) || a.localeCompare(b);
+  return rankOf(a) - rankOf(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]) || a.localeCompare(b);
 };
 
 // ---------- colour: CIE-Lab, so "different enough" is a measurable distance ----------
