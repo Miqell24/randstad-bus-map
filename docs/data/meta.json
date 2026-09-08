@@ -18342,7 +18342,7 @@
       "line": "N1",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Scheveningen",
@@ -18372,7 +18372,7 @@
       "line": "N2",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Wassenaar",
@@ -18402,7 +18402,7 @@
       "line": "N3",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Poeldijk",
@@ -18432,7 +18432,7 @@
       "line": "N4",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Rijswijk",
@@ -18462,7 +18462,7 @@
       "line": "N5",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Delft",
@@ -18492,7 +18492,7 @@
       "line": "N06",
       "mode": "bus",
       "op": "meer",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Amsterdam Centraal",
@@ -18564,7 +18564,7 @@
       "line": "N6",
       "mode": "bus",
       "op": "htm",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Zoetermeer",
@@ -18594,7 +18594,7 @@
       "line": "N07",
       "mode": "bus",
       "op": "meer",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Amsterdam Centraal",
@@ -18666,7 +18666,7 @@
       "line": "N19",
       "mode": "bus",
       "op": "meer",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Zaandam",
@@ -18696,7 +18696,7 @@
       "line": "N26",
       "mode": "bus",
       "op": "uov",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18747,7 +18747,7 @@
       "line": "N30",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18798,7 +18798,7 @@
       "line": "N40",
       "mode": "bus",
       "op": "qbuzz",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18849,7 +18849,7 @@
       "line": "N47",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18900,7 +18900,7 @@
       "line": "N57",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18951,7 +18951,7 @@
       "line": "N60",
       "mode": "bus",
       "op": "tdev",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19002,7 +19002,7 @@
       "line": "N70",
       "mode": "bus",
       "op": "qbuzz",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19053,7 +19053,7 @@
       "line": "N80",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Beverwijk Station",
@@ -19083,7 +19083,7 @@
       "line": "N81",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19134,7 +19134,7 @@
       "line": "N82",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19185,7 +19185,7 @@
       "line": "N83",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19236,7 +19236,7 @@
       "line": "N84",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19287,7 +19287,7 @@
       "line": "N85",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19338,7 +19338,7 @@
       "line": "N87",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19389,7 +19389,7 @@
       "line": "N88",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19440,7 +19440,7 @@
       "line": "N89",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19491,7 +19491,7 @@
       "line": "N90",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19542,7 +19542,7 @@
       "line": "N91",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19593,7 +19593,7 @@
       "line": "N93",
       "mode": "bus",
       "op": "gvb",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19644,7 +19644,7 @@
       "line": "N94",
       "mode": "bus",
       "op": "meer",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -19695,7 +19695,7 @@
       "line": "N97",
       "mode": "bus",
       "op": "conn",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
