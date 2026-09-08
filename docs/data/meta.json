@@ -18339,1410 +18339,6 @@
       "rank": 1
     },
     {
-      "line": "N1",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Scheveningen",
-          "headsign": "Scheveningen",
-          "variants": 2,
-          "tripCount": 18,
-          "stops": 21,
-          "lengthKm": 23.07,
-          "stats": {
-            "observations": 1132,
-            "matched": 1132,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.8692372849832734,
-            "roundaboutSegs": 45,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N2",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Wassenaar",
-          "headsign": "Wassenaar",
-          "variants": 2,
-          "tripCount": 18,
-          "stops": 20,
-          "lengthKm": 34.3,
-          "stats": {
-            "observations": 1634,
-            "matched": 1634,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.1817243683628007,
-            "roundaboutSegs": 140,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N3",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Poeldijk",
-          "headsign": "Poeldijk",
-          "variants": 2,
-          "tripCount": 18,
-          "stops": 25,
-          "lengthKm": 27.55,
-          "stats": {
-            "observations": 1339,
-            "matched": 1339,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.8476416588794874,
-            "roundaboutSegs": 57,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N4",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Rijswijk",
-          "headsign": "Rijswijk",
-          "variants": 2,
-          "tripCount": 27,
-          "stops": 26,
-          "lengthKm": 23.97,
-          "stats": {
-            "observations": 1193,
-            "matched": 1185,
-            "noCandidates": 8,
-            "viterbiBreaks": 1,
-            "bridged": 0,
-            "rawStretchCount": 1,
-            "rawMeters": 178,
-            "meanError": 0.9552992884815817,
-            "roundaboutSegs": 43,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N5",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Delft",
-          "headsign": "Delft",
-          "variants": 4,
-          "tripCount": 12,
-          "stops": 19,
-          "lengthKm": 34.23,
-          "stats": {
-            "observations": 1665,
-            "matched": 1665,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.7798954638924424,
-            "roundaboutSegs": 76,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N06",
-      "mode": "bus",
-      "op": "meer",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Amsterdam Centraal",
-          "headsign": "Amsterdam Centraal",
-          "variants": 3,
-          "tripCount": 5,
-          "stops": 19,
-          "lengthKm": 26.18,
-          "stats": {
-            "observations": 1306,
-            "matched": 1306,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.8801854855992044,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Purmerend",
-          "headsign": "Purmerend",
-          "variants": 3,
-          "tripCount": 71,
-          "stops": 46,
-          "lengthKm": 48.12,
-          "stats": {
-            "observations": 2403,
-            "matched": 2403,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.712761058338003,
-            "roundaboutSegs": 59,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Purmerend Overwhere",
-          "headsign": "Purmerend Overwhere",
-          "variants": 3,
-          "tripCount": 35,
-          "stops": 23,
-          "lengthKm": 22.85,
-          "stats": {
-            "observations": 1142,
-            "matched": 1142,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.808661391043904,
-            "roundaboutSegs": 53,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N6",
-      "mode": "bus",
-      "op": "htm",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Zoetermeer",
-          "headsign": "Zoetermeer",
-          "variants": 2,
-          "tripCount": 27,
-          "stops": 20,
-          "lengthKm": 42.42,
-          "stats": {
-            "observations": 1923,
-            "matched": 1923,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.9975873150077799,
-            "roundaboutSegs": 201,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N07",
-      "mode": "bus",
-      "op": "meer",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Amsterdam Centraal",
-          "headsign": "Amsterdam Centraal",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 22,
-          "lengthKm": 22.21,
-          "stats": {
-            "observations": 1109,
-            "matched": 1109,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.6902651432181828,
-            "roundaboutSegs": 41,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Purmerend",
-          "headsign": "Purmerend",
-          "variants": 1,
-          "tripCount": 22,
-          "stops": 44,
-          "lengthKm": 47.99,
-          "stats": {
-            "observations": 2396,
-            "matched": 2396,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.627012710015678,
-            "roundaboutSegs": 62,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Purmerend De Purmer",
-          "headsign": "Purmerend De Purmer",
-          "variants": 1,
-          "tripCount": 14,
-          "stops": 20,
-          "lengthKm": 21.4,
-          "stats": {
-            "observations": 1069,
-            "matched": 1069,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.613431824695392,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N19",
-      "mode": "bus",
-      "op": "meer",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Zaandam",
-          "headsign": "Zaandam",
-          "variants": 3,
-          "tripCount": 44,
-          "stops": 33,
-          "lengthKm": 36.88,
-          "stats": {
-            "observations": 1843,
-            "matched": 1843,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.5346543496717797,
-            "roundaboutSegs": 53,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N26",
-      "mode": "bus",
-      "op": "uov",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amsterdam",
-          "variants": 1,
-          "tripCount": 14,
-          "stops": 3,
-          "lengthKm": 53.45,
-          "stats": {
-            "observations": 2002,
-            "matched": 2002,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.936460402683925,
-            "roundaboutSegs": 15,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Woerden",
-          "variants": 2,
-          "tripCount": 14,
-          "stops": 38,
-          "lengthKm": 57.11,
-          "stats": {
-            "observations": 2350,
-            "matched": 2350,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.0081636226744146,
-            "roundaboutSegs": 175,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N30",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Bijlmer ArenA Amsterdam",
-          "variants": 8,
-          "tripCount": 6,
-          "stops": 38,
-          "lengthKm": 53.41,
-          "stats": {
-            "observations": 2582,
-            "matched": 2582,
-            "noCandidates": 0,
-            "viterbiBreaks": 3,
-            "bridged": 0,
-            "rawStretchCount": 3,
-            "rawMeters": 53,
-            "meanError": 3.328900201014973,
-            "roundaboutSegs": 93,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "IJmuiden Dennekoplaan",
-          "variants": 6,
-          "tripCount": 9,
-          "stops": 38,
-          "lengthKm": 53.81,
-          "stats": {
-            "observations": 2600,
-            "matched": 2600,
-            "noCandidates": 0,
-            "viterbiBreaks": 2,
-            "bridged": 0,
-            "rawStretchCount": 2,
-            "rawMeters": 40,
-            "meanError": 3.044903196822932,
-            "roundaboutSegs": 110,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N40",
-      "mode": "bus",
-      "op": "qbuzz",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Leiden CS",
-          "variants": 3,
-          "tripCount": 3,
-          "stops": 25,
-          "lengthKm": 30.31,
-          "stats": {
-            "observations": 1364,
-            "matched": 1364,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.6960495785178515,
-            "roundaboutSegs": 52,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Zoetermeer",
-          "variants": 1,
-          "tripCount": 8,
-          "stops": 13,
-          "lengthKm": 15.19,
-          "stats": {
-            "observations": 685,
-            "matched": 685,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.6806350306010784,
-            "roundaboutSegs": 16,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N47",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amsterdam Centraal Station",
-          "variants": 2,
-          "tripCount": 10,
-          "stops": 24,
-          "lengthKm": 22.57,
-          "stats": {
-            "observations": 1101,
-            "matched": 1101,
-            "noCandidates": 0,
-            "viterbiBreaks": 1,
-            "bridged": 0,
-            "rawStretchCount": 1,
-            "rawMeters": 20,
-            "meanError": 2.084987058124595,
-            "roundaboutSegs": 101,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Uithoorn Busst.",
-          "variants": 2,
-          "tripCount": 10,
-          "stops": 24,
-          "lengthKm": 22.67,
-          "stats": {
-            "observations": 1082,
-            "matched": 1082,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.180183092595831,
-            "roundaboutSegs": 86,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N57",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amsterdam Centraal Station",
-          "variants": 2,
-          "tripCount": 8,
-          "stops": 24,
-          "lengthKm": 23.82,
-          "stats": {
-            "observations": 1165,
-            "matched": 1165,
-            "noCandidates": 0,
-            "viterbiBreaks": 1,
-            "bridged": 0,
-            "rawStretchCount": 1,
-            "rawMeters": 20,
-            "meanError": 1.9786231660421445,
-            "roundaboutSegs": 62,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Aalsmeer Busst.",
-          "variants": 2,
-          "tripCount": 10,
-          "stops": 24,
-          "lengthKm": 23.78,
-          "stats": {
-            "observations": 1161,
-            "matched": 1161,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.8093341360861779,
-            "roundaboutSegs": 66,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N60",
-      "mode": "bus",
-      "op": "tdev",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Goudswaard Nic. van Puttenstraat",
-          "variants": 2,
-          "tripCount": 2,
-          "stops": 11,
-          "lengthKm": 35.1,
-          "stats": {
-            "observations": 1635,
-            "matched": 1635,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.5708836560301929,
-            "roundaboutSegs": 89,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Rotterdam Centraal Station",
-          "variants": 2,
-          "tripCount": 2,
-          "stops": 8,
-          "lengthKm": 23.85,
-          "stats": {
-            "observations": 1182,
-            "matched": 1182,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.0243866625868647,
-            "roundaboutSegs": 74,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N70",
-      "mode": "bus",
-      "op": "qbuzz",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Schiphol Airport",
-          "variants": 1,
-          "tripCount": 25,
-          "stops": 11,
-          "lengthKm": 25.82,
-          "stats": {
-            "observations": 1090,
-            "matched": 1090,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.687570513719299,
-            "roundaboutSegs": 51,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Alphen a/d Rijn",
-          "variants": 2,
-          "tripCount": 12,
-          "stops": 11,
-          "lengthKm": 26.13,
-          "stats": {
-            "observations": 1076,
-            "matched": 1076,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.5607515530452045,
-            "roundaboutSegs": 47,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N80",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Beverwijk Station",
-          "headsign": "Beverwijk Station",
-          "variants": 3,
-          "tripCount": 16,
-          "stops": 42,
-          "lengthKm": 38.04,
-          "stats": {
-            "observations": 1834,
-            "matched": 1834,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.8533656532672884,
-            "roundaboutSegs": 51,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N81",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Station Sloterdijk",
-          "variants": 1,
-          "tripCount": 116,
-          "stops": 13,
-          "lengthKm": 6.13,
-          "stats": {
-            "observations": 306,
-            "matched": 306,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.7181944206517465,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 1,
-          "tripCount": 112,
-          "stops": 13,
-          "lengthKm": 5.87,
-          "stats": {
-            "observations": 295,
-            "matched": 295,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.1067148013581245,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N82",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Geuzenveld",
-          "variants": 2,
-          "tripCount": 135,
-          "stops": 24,
-          "lengthKm": 12.64,
-          "stats": {
-            "observations": 632,
-            "matched": 632,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.5936707052179986,
-            "roundaboutSegs": 50,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 3,
-          "tripCount": 122,
-          "stops": 26,
-          "lengthKm": 10.75,
-          "stats": {
-            "observations": 538,
-            "matched": 538,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.8935456089226228,
-            "roundaboutSegs": 47,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N83",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Osdorp De Aker",
-          "variants": 2,
-          "tripCount": 186,
-          "stops": 28,
-          "lengthKm": 14.38,
-          "stats": {
-            "observations": 720,
-            "matched": 720,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.3635718391207392,
-            "roundaboutSegs": 102,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 2,
-          "tripCount": 178,
-          "stops": 27,
-          "lengthKm": 13.85,
-          "stats": {
-            "observations": 688,
-            "matched": 688,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.4184117621153691,
-            "roundaboutSegs": 57,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N84",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amstelveen Busstation",
-          "variants": 2,
-          "tripCount": 98,
-          "stops": 35,
-          "lengthKm": 17.64,
-          "stats": {
-            "observations": 868,
-            "matched": 868,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.3542404735257643,
-            "roundaboutSegs": 41,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 1,
-          "tripCount": 104,
-          "stops": 24,
-          "lengthKm": 14.43,
-          "stats": {
-            "observations": 718,
-            "matched": 718,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.6566859873320317,
-            "roundaboutSegs": 50,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N85",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Gein",
-          "variants": 4,
-          "tripCount": 241,
-          "stops": 35,
-          "lengthKm": 19.68,
-          "stats": {
-            "observations": 978,
-            "matched": 978,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.659114047075759,
-            "roundaboutSegs": 29,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 2,
-          "tripCount": 264,
-          "stops": 25,
-          "lengthKm": 18.95,
-          "stats": {
-            "observations": 930,
-            "matched": 930,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.80649800264908,
-            "roundaboutSegs": 15,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N87",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Station Bijlmer ArenA",
-          "variants": 5,
-          "tripCount": 32,
-          "stops": 39,
-          "lengthKm": 22.83,
-          "stats": {
-            "observations": 1108,
-            "matched": 1108,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.7885779404468674,
-            "roundaboutSegs": 214,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 2,
-          "tripCount": 113,
-          "stops": 32,
-          "lengthKm": 15.82,
-          "stats": {
-            "observations": 762,
-            "matched": 762,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.93766928514778,
-            "roundaboutSegs": 115,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N88",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Nieuw Sloten",
-          "variants": 2,
-          "tripCount": 116,
-          "stops": 30,
-          "lengthKm": 14.29,
-          "stats": {
-            "observations": 714,
-            "matched": 714,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.6361012111443085,
-            "roundaboutSegs": 3,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 2,
-          "tripCount": 116,
-          "stops": 17,
-          "lengthKm": 10.91,
-          "stats": {
-            "observations": 546,
-            "matched": 546,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.010138618375539,
-            "roundaboutSegs": 30,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N89",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "IJburg Strandeiland",
-          "variants": 2,
-          "tripCount": 45,
-          "stops": 26,
-          "lengthKm": 14.65,
-          "stats": {
-            "observations": 726,
-            "matched": 726,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.2789556893285294,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 2,
-          "tripCount": 45,
-          "stops": 21,
-          "lengthKm": 12.43,
-          "stats": {
-            "observations": 579,
-            "matched": 579,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.5270097586033473,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N90",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Schiphol P30",
-          "variants": 2,
-          "tripCount": 70,
-          "stops": 10,
-          "lengthKm": 7.92,
-          "stats": {
-            "observations": 395,
-            "matched": 395,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.3625135445823817,
-            "roundaboutSegs": 4,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Schiphol Knooppunt Noord",
-          "variants": 2,
-          "tripCount": 69,
-          "stops": 10,
-          "lengthKm": 7.9,
-          "stats": {
-            "observations": 396,
-            "matched": 396,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.0996144801309473,
-            "roundaboutSegs": 11,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N91",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Nieuwendam",
-          "variants": 4,
-          "tripCount": 92,
-          "stops": 20,
-          "lengthKm": 12.82,
-          "stats": {
-            "observations": 635,
-            "matched": 635,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.5543027740526818,
-            "roundaboutSegs": 19,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 3,
-          "tripCount": 15,
-          "stops": 9,
-          "lengthKm": 7.63,
-          "stats": {
-            "observations": 377,
-            "matched": 377,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.062284757645566,
-            "roundaboutSegs": 55,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N93",
-      "mode": "bus",
-      "op": "gvb",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Molenwijk",
-          "variants": 4,
-          "tripCount": 109,
-          "stops": 17,
-          "lengthKm": 11.33,
-          "stats": {
-            "observations": 564,
-            "matched": 564,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.4176541327977636,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Centraal Station",
-          "variants": 4,
-          "tripCount": 110,
-          "stops": 16,
-          "lengthKm": 10.75,
-          "stats": {
-            "observations": 535,
-            "matched": 535,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.9825704733954548,
-            "roundaboutSegs": 25,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N94",
-      "mode": "bus",
-      "op": "meer",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amsterdam Centraal",
-          "variants": 5,
-          "tripCount": 74,
-          "stops": 26,
-          "lengthKm": 24.71,
-          "stats": {
-            "observations": 1234,
-            "matched": 1234,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.458997315789752,
-            "roundaboutSegs": 41,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Krommenie",
-          "variants": 5,
-          "tripCount": 86,
-          "stops": 25,
-          "lengthKm": 25.18,
-          "stats": {
-            "observations": 1256,
-            "matched": 1256,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 3.79250503285889,
-            "roundaboutSegs": 41,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N97",
-      "mode": "bus",
-      "op": "conn",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Amsterdam CS",
-          "variants": 2,
-          "tripCount": 16,
-          "stops": 26,
-          "lengthKm": 35,
-          "stats": {
-            "observations": 1652,
-            "matched": 1652,
-            "noCandidates": 0,
-            "viterbiBreaks": 3,
-            "bridged": 0,
-            "rawStretchCount": 3,
-            "rawMeters": 60,
-            "meanError": 2.7407557406641603,
-            "roundaboutSegs": 11,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Nieuw-Vennep Getsewoud P+R",
-          "variants": 2,
-          "tripCount": 16,
-          "stops": 26,
-          "lengthKm": 35.12,
-          "stats": {
-            "observations": 1661,
-            "matched": 1661,
-            "noCandidates": 0,
-            "viterbiBreaks": 2,
-            "bridged": 0,
-            "rawStretchCount": 2,
-            "rawMeters": 40,
-            "meanError": 2.751578050857383,
-            "roundaboutSegs": 21,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
       "line": "gvb:1",
       "mode": "tram",
       "op": "gvb",
@@ -22585,6 +21181,1410 @@
         }
       ],
       "rank": 1
+    },
+    {
+      "line": "N1",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Scheveningen",
+          "headsign": "Scheveningen",
+          "variants": 2,
+          "tripCount": 18,
+          "stops": 21,
+          "lengthKm": 23.07,
+          "stats": {
+            "observations": 1132,
+            "matched": 1132,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8692372849832734,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N2",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Wassenaar",
+          "headsign": "Wassenaar",
+          "variants": 2,
+          "tripCount": 18,
+          "stops": 20,
+          "lengthKm": 34.3,
+          "stats": {
+            "observations": 1634,
+            "matched": 1634,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1817243683628007,
+            "roundaboutSegs": 140,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N3",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Poeldijk",
+          "headsign": "Poeldijk",
+          "variants": 2,
+          "tripCount": 18,
+          "stops": 25,
+          "lengthKm": 27.55,
+          "stats": {
+            "observations": 1339,
+            "matched": 1339,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8476416588794874,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N4",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Rijswijk",
+          "headsign": "Rijswijk",
+          "variants": 2,
+          "tripCount": 27,
+          "stops": 26,
+          "lengthKm": 23.97,
+          "stats": {
+            "observations": 1193,
+            "matched": 1185,
+            "noCandidates": 8,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 178,
+            "meanError": 0.9552992884815817,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N5",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Delft",
+          "headsign": "Delft",
+          "variants": 4,
+          "tripCount": 12,
+          "stops": 19,
+          "lengthKm": 34.23,
+          "stats": {
+            "observations": 1665,
+            "matched": 1665,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7798954638924424,
+            "roundaboutSegs": 76,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N06",
+      "mode": "bus",
+      "op": "meer",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Amsterdam Centraal",
+          "headsign": "Amsterdam Centraal",
+          "variants": 3,
+          "tripCount": 5,
+          "stops": 19,
+          "lengthKm": 26.18,
+          "stats": {
+            "observations": 1306,
+            "matched": 1306,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8801854855992044,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Purmerend",
+          "headsign": "Purmerend",
+          "variants": 3,
+          "tripCount": 71,
+          "stops": 46,
+          "lengthKm": 48.12,
+          "stats": {
+            "observations": 2403,
+            "matched": 2403,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.712761058338003,
+            "roundaboutSegs": 59,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Purmerend Overwhere",
+          "headsign": "Purmerend Overwhere",
+          "variants": 3,
+          "tripCount": 35,
+          "stops": 23,
+          "lengthKm": 22.85,
+          "stats": {
+            "observations": 1142,
+            "matched": 1142,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.808661391043904,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N6",
+      "mode": "bus",
+      "op": "htm",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Zoetermeer",
+          "headsign": "Zoetermeer",
+          "variants": 2,
+          "tripCount": 27,
+          "stops": 20,
+          "lengthKm": 42.42,
+          "stats": {
+            "observations": 1923,
+            "matched": 1923,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9975873150077799,
+            "roundaboutSegs": 201,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N07",
+      "mode": "bus",
+      "op": "meer",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Amsterdam Centraal",
+          "headsign": "Amsterdam Centraal",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 22,
+          "lengthKm": 22.21,
+          "stats": {
+            "observations": 1109,
+            "matched": 1109,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6902651432181828,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Purmerend",
+          "headsign": "Purmerend",
+          "variants": 1,
+          "tripCount": 22,
+          "stops": 44,
+          "lengthKm": 47.99,
+          "stats": {
+            "observations": 2396,
+            "matched": 2396,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.627012710015678,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Purmerend De Purmer",
+          "headsign": "Purmerend De Purmer",
+          "variants": 1,
+          "tripCount": 14,
+          "stops": 20,
+          "lengthKm": 21.4,
+          "stats": {
+            "observations": 1069,
+            "matched": 1069,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.613431824695392,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N19",
+      "mode": "bus",
+      "op": "meer",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Zaandam",
+          "headsign": "Zaandam",
+          "variants": 3,
+          "tripCount": 44,
+          "stops": 33,
+          "lengthKm": 36.88,
+          "stats": {
+            "observations": 1843,
+            "matched": 1843,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5346543496717797,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N26",
+      "mode": "bus",
+      "op": "uov",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amsterdam",
+          "variants": 1,
+          "tripCount": 14,
+          "stops": 3,
+          "lengthKm": 53.45,
+          "stats": {
+            "observations": 2002,
+            "matched": 2002,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.936460402683925,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Woerden",
+          "variants": 2,
+          "tripCount": 14,
+          "stops": 38,
+          "lengthKm": 57.11,
+          "stats": {
+            "observations": 2350,
+            "matched": 2350,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0081636226744146,
+            "roundaboutSegs": 175,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N30",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bijlmer ArenA Amsterdam",
+          "variants": 8,
+          "tripCount": 6,
+          "stops": 38,
+          "lengthKm": 53.41,
+          "stats": {
+            "observations": 2582,
+            "matched": 2582,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 53,
+            "meanError": 3.328900201014973,
+            "roundaboutSegs": 93,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "IJmuiden Dennekoplaan",
+          "variants": 6,
+          "tripCount": 9,
+          "stops": 38,
+          "lengthKm": 53.81,
+          "stats": {
+            "observations": 2600,
+            "matched": 2600,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 3.044903196822932,
+            "roundaboutSegs": 110,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N40",
+      "mode": "bus",
+      "op": "qbuzz",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Leiden CS",
+          "variants": 3,
+          "tripCount": 3,
+          "stops": 25,
+          "lengthKm": 30.31,
+          "stats": {
+            "observations": 1364,
+            "matched": 1364,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6960495785178515,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Zoetermeer",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 13,
+          "lengthKm": 15.19,
+          "stats": {
+            "observations": 685,
+            "matched": 685,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6806350306010784,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N47",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amsterdam Centraal Station",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 24,
+          "lengthKm": 22.57,
+          "stats": {
+            "observations": 1101,
+            "matched": 1101,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 2.084987058124595,
+            "roundaboutSegs": 101,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Uithoorn Busst.",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 24,
+          "lengthKm": 22.67,
+          "stats": {
+            "observations": 1082,
+            "matched": 1082,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.180183092595831,
+            "roundaboutSegs": 86,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N57",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amsterdam Centraal Station",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 24,
+          "lengthKm": 23.82,
+          "stats": {
+            "observations": 1165,
+            "matched": 1165,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 1.9786231660421445,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Aalsmeer Busst.",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 24,
+          "lengthKm": 23.78,
+          "stats": {
+            "observations": 1161,
+            "matched": 1161,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8093341360861779,
+            "roundaboutSegs": 66,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N60",
+      "mode": "bus",
+      "op": "tdev",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Goudswaard Nic. van Puttenstraat",
+          "variants": 2,
+          "tripCount": 2,
+          "stops": 11,
+          "lengthKm": 35.1,
+          "stats": {
+            "observations": 1635,
+            "matched": 1635,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5708836560301929,
+            "roundaboutSegs": 89,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rotterdam Centraal Station",
+          "variants": 2,
+          "tripCount": 2,
+          "stops": 8,
+          "lengthKm": 23.85,
+          "stats": {
+            "observations": 1182,
+            "matched": 1182,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0243866625868647,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N70",
+      "mode": "bus",
+      "op": "qbuzz",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Schiphol Airport",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 11,
+          "lengthKm": 25.82,
+          "stats": {
+            "observations": 1090,
+            "matched": 1090,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.687570513719299,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Alphen a/d Rijn",
+          "variants": 2,
+          "tripCount": 12,
+          "stops": 11,
+          "lengthKm": 26.13,
+          "stats": {
+            "observations": 1076,
+            "matched": 1076,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.5607515530452045,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N80",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Beverwijk Station",
+          "headsign": "Beverwijk Station",
+          "variants": 3,
+          "tripCount": 16,
+          "stops": 42,
+          "lengthKm": 38.04,
+          "stats": {
+            "observations": 1834,
+            "matched": 1834,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8533656532672884,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N81",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Station Sloterdijk",
+          "variants": 1,
+          "tripCount": 116,
+          "stops": 13,
+          "lengthKm": 6.13,
+          "stats": {
+            "observations": 306,
+            "matched": 306,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7181944206517465,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 1,
+          "tripCount": 112,
+          "stops": 13,
+          "lengthKm": 5.87,
+          "stats": {
+            "observations": 295,
+            "matched": 295,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1067148013581245,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N82",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Geuzenveld",
+          "variants": 2,
+          "tripCount": 135,
+          "stops": 24,
+          "lengthKm": 12.64,
+          "stats": {
+            "observations": 632,
+            "matched": 632,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5936707052179986,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 3,
+          "tripCount": 122,
+          "stops": 26,
+          "lengthKm": 10.75,
+          "stats": {
+            "observations": 538,
+            "matched": 538,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8935456089226228,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N83",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Osdorp De Aker",
+          "variants": 2,
+          "tripCount": 186,
+          "stops": 28,
+          "lengthKm": 14.38,
+          "stats": {
+            "observations": 720,
+            "matched": 720,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3635718391207392,
+            "roundaboutSegs": 102,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 2,
+          "tripCount": 178,
+          "stops": 27,
+          "lengthKm": 13.85,
+          "stats": {
+            "observations": 688,
+            "matched": 688,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4184117621153691,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N84",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amstelveen Busstation",
+          "variants": 2,
+          "tripCount": 98,
+          "stops": 35,
+          "lengthKm": 17.64,
+          "stats": {
+            "observations": 868,
+            "matched": 868,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3542404735257643,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 1,
+          "tripCount": 104,
+          "stops": 24,
+          "lengthKm": 14.43,
+          "stats": {
+            "observations": 718,
+            "matched": 718,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6566859873320317,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N85",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Gein",
+          "variants": 4,
+          "tripCount": 241,
+          "stops": 35,
+          "lengthKm": 19.68,
+          "stats": {
+            "observations": 978,
+            "matched": 978,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.659114047075759,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 2,
+          "tripCount": 264,
+          "stops": 25,
+          "lengthKm": 18.95,
+          "stats": {
+            "observations": 930,
+            "matched": 930,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.80649800264908,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N87",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Station Bijlmer ArenA",
+          "variants": 5,
+          "tripCount": 32,
+          "stops": 39,
+          "lengthKm": 22.83,
+          "stats": {
+            "observations": 1108,
+            "matched": 1108,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7885779404468674,
+            "roundaboutSegs": 214,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 2,
+          "tripCount": 113,
+          "stops": 32,
+          "lengthKm": 15.82,
+          "stats": {
+            "observations": 762,
+            "matched": 762,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.93766928514778,
+            "roundaboutSegs": 115,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N88",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nieuw Sloten",
+          "variants": 2,
+          "tripCount": 116,
+          "stops": 30,
+          "lengthKm": 14.29,
+          "stats": {
+            "observations": 714,
+            "matched": 714,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6361012111443085,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 2,
+          "tripCount": 116,
+          "stops": 17,
+          "lengthKm": 10.91,
+          "stats": {
+            "observations": 546,
+            "matched": 546,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.010138618375539,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N89",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "IJburg Strandeiland",
+          "variants": 2,
+          "tripCount": 45,
+          "stops": 26,
+          "lengthKm": 14.65,
+          "stats": {
+            "observations": 726,
+            "matched": 726,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2789556893285294,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 2,
+          "tripCount": 45,
+          "stops": 21,
+          "lengthKm": 12.43,
+          "stats": {
+            "observations": 579,
+            "matched": 579,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5270097586033473,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N90",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Schiphol P30",
+          "variants": 2,
+          "tripCount": 70,
+          "stops": 10,
+          "lengthKm": 7.92,
+          "stats": {
+            "observations": 395,
+            "matched": 395,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3625135445823817,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Schiphol Knooppunt Noord",
+          "variants": 2,
+          "tripCount": 69,
+          "stops": 10,
+          "lengthKm": 7.9,
+          "stats": {
+            "observations": 396,
+            "matched": 396,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0996144801309473,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N91",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nieuwendam",
+          "variants": 4,
+          "tripCount": 92,
+          "stops": 20,
+          "lengthKm": 12.82,
+          "stats": {
+            "observations": 635,
+            "matched": 635,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5543027740526818,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 3,
+          "tripCount": 15,
+          "stops": 9,
+          "lengthKm": 7.63,
+          "stats": {
+            "observations": 377,
+            "matched": 377,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.062284757645566,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N93",
+      "mode": "bus",
+      "op": "gvb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Molenwijk",
+          "variants": 4,
+          "tripCount": 109,
+          "stops": 17,
+          "lengthKm": 11.33,
+          "stats": {
+            "observations": 564,
+            "matched": 564,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4176541327977636,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centraal Station",
+          "variants": 4,
+          "tripCount": 110,
+          "stops": 16,
+          "lengthKm": 10.75,
+          "stats": {
+            "observations": 535,
+            "matched": 535,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9825704733954548,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N94",
+      "mode": "bus",
+      "op": "meer",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amsterdam Centraal",
+          "variants": 5,
+          "tripCount": 74,
+          "stops": 26,
+          "lengthKm": 24.71,
+          "stats": {
+            "observations": 1234,
+            "matched": 1234,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.458997315789752,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Krommenie",
+          "variants": 5,
+          "tripCount": 86,
+          "stops": 25,
+          "lengthKm": 25.18,
+          "stats": {
+            "observations": 1256,
+            "matched": 1256,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.79250503285889,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N97",
+      "mode": "bus",
+      "op": "conn",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amsterdam CS",
+          "variants": 2,
+          "tripCount": 16,
+          "stops": 26,
+          "lengthKm": 35,
+          "stats": {
+            "observations": 1652,
+            "matched": 1652,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 60,
+            "meanError": 2.7407557406641603,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Nieuw-Vennep Getsewoud P+R",
+          "variants": 2,
+          "tripCount": 16,
+          "stops": 26,
+          "lengthKm": 35.12,
+          "stats": {
+            "observations": 1661,
+            "matched": 1661,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 2.751578050857383,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
     }
   ]
 }
